@@ -3,6 +3,13 @@ sudo apt install snap
 sudo snap install notepad-plus-plus
 sudo snap install --classic code
 
+#install github
+sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.6.3-linux1/GitHubDesktop-linux-2.6.3-linux1.deb
+sudo apt-get install gdebi-core
+sudo gdebi GitHubDesktop-linux-2.6.3-linux1.deb
+
+
+
 # install chrome
 sudo apt install wget
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
