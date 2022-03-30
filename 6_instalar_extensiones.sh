@@ -57,5 +57,7 @@ google-chrome https://extensions.gnome.org/extension/1723/wintile-windows-10-win
 google-chrome https://extensions.gnome.org/extension/427/workspaces-to-dock/
 
 
-
+sudo add-apt-repository ppa:agornostal/ulauncher
+sudo apt-get update
+sudo apt-get install -y ulauncher
 
